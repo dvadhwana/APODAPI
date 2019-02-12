@@ -1,0 +1,24 @@
+2019-01-22 16:44:07.5154 Info Message Template Auto Format enabled
+2019-01-22 16:44:07.6402 Info Adding target File Target[logfile]
+2019-01-22 16:44:07.6402 Info Adding target Console Target[logconsole]
+2019-01-22 16:44:07.6668 Info Configured from an XML element in D:\Projects\azure\azuretestapp\azuretestapp\bin\Debug\netcoreapp2.1\nlog.config...
+2019-01-22 16:44:07.6983 Info Found 37 configuration items
+2019-01-22 16:44:09.6755 Info Message Template Auto Format enabled
+2019-01-22 16:44:09.6755 Info Found 37 configuration items
+2019-01-22 16:44:09.6755 Info Adding target File Target[logfile]
+2019-01-22 16:44:09.6755 Info Adding target Console Target[logconsole]
+2019-01-22 16:44:09.6755 Info Configured from an XML element in D:\Projects\azure\azuretestapp\azuretestapp\bin\Debug\netcoreapp2.1\nlog.config...
+2019-01-22 16:44:09.6938 Info Closing old configuration.
+2019-01-22 16:44:09.7544 Info Found 37 configuration items
+2019-02-12 14:47:24.7325 Info Message Template Auto Format enabled
+2019-02-12 14:47:24.9055 Info Adding target File Target[logfile]
+2019-02-12 14:47:24.9055 Info Adding target Console Target[logconsole]
+2019-02-12 14:47:24.9246 Info Configured from an XML element in D:\Projects\azure\APODAPI\azuretestapp\bin\Debug\netcoreapp2.1\nlog.config...
+2019-02-12 14:47:24.9516 Info Found 37 configuration items
+2019-02-12 14:47:28.1056 Info Message Template Auto Format enabled
+2019-02-12 14:47:28.1209 Info Found 37 configuration items
+2019-02-12 14:47:28.1245 Info Adding target File Target[logfile]
+2019-02-12 14:47:28.1245 Info Adding target Console Target[logconsole]
+2019-02-12 14:47:28.1245 Info Configured from an XML element in D:\Projects\azure\APODAPI\azuretestapp\bin\Debug\netcoreapp2.1\nlog.config...
+2019-02-12 14:47:28.1245 Info Closing old configuration.
+2019-02-12 14:47:28.1878 Info Found 37 configuration items
