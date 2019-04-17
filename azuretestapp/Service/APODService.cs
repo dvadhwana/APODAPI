@@ -20,11 +20,12 @@ namespace azuretestapp.Service
 
         public virtual async Task<string> dummy()
         {
-            var result = "Hello World";
-            var Result1 = "Hello World";
-            var result2 = "Hello World";
+            int target = -5;
+            int num = 3;
 
-            return result;
+            target = -num;  // Noncompliant; target = -3. Is that really what's meant?
+            target = +num; // Noncompliant; target = 3
+            return "Hello World";
         }
 
         public virtual async Task<JObject> GetAPOD (DateTime APODdate)
