@@ -24,4 +24,10 @@
     </Content>
   </ItemGroup>
 
+  <ItemGroup>
+    <SonarQubeSetting Include="sonar.stylecop.projectFilePath">
+	  <Value>$(MSBuildProjectFullPath)</Value>
+    </SonarQubeSetting>
+  </ItemGroup>
+  
 </Project>
