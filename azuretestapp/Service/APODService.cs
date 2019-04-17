@@ -24,7 +24,7 @@ namespace azuretestapp.Service
             var Result1 = "Hello World";
             var result2 = "Hello World";
 
-            return "Hello World";
+            return result;
         }
 
         public virtual async Task<JObject> GetAPOD (DateTime APODdate)
