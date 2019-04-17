@@ -18,9 +18,18 @@ namespace azuretestapp.Service
             _logger = logger;
         }
 
+        public virtual async Task<string> dummy()
+        {
+            var result = "Hello World";
+            var Result1 = "Hello World";
+            var result2 = "Hello World";
+
+            return "Hello World";
+        }
+
         public virtual async Task<JObject> GetAPOD (DateTime APODdate)
         {
-            var i=0f;
+            //var i=0f;
             string uri = "https://api.nasa.gov/planetary/apod?api_key=HfNsuJpUXQplm4uGYogg5oMe5JnW7EhdN5Ke3seP&start_date=" + APODdate.ToString("yyyy-MM-dd") + "&end_date=" + APODdate.ToString("yyyy-MM-dd");
             _logger.LogInformation("Before calling Nasa API @ URL : " + uri);
             try
