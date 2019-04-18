@@ -24,7 +24,18 @@ namespace azuretestapp.Service
             int num = 3;
 
             target = -num;  // Noncompliant; target = -3. Is that really what's meant?
-            target = +num; // Noncompliant; target = 3
+            target = +num; // Noncompliant; target = 3\
+            if (target > 0)
+            {
+                goto Finish;
+            }
+
+            Found:
+            Console.WriteLine("Inside Found");
+
+            Finish:
+            Console.WriteLine("Inside Finish");
+
             return "Hello World";
         }
 
